@@ -1,7 +1,7 @@
 let my_Balance = parseInt(document.getElementById("my_Balance").innerText);
 
 function perform_transaction(){
-   var enterAccountNo = parseInt(document.getElementById("enterAccountNo").value);
+   var enterAccountNo = parseInt(document.getElementById("enterAccountNo").value); 
    var enterAmount = parseInt(document.getElementById("enterAmount").value);
 
    if (enterAmount > 600000) {
